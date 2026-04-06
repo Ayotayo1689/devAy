@@ -44,6 +44,8 @@
 
 	<!-- Modernizr JS -->
 	<script src="./js/modernizr-2.6.2.min.js"></script>
+	<!-- Dark Mode Theme Toggle -->
+	<script src="./js/dark-mode.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="./js/respond.min.js"></script>
@@ -77,6 +79,13 @@
 			</nav>
 
 			<div class="colorlib-footer">
+				<!-- <div class="theme-toggle-container">
+					<label class="theme-toggle" for="theme-checkbox">
+						<input type="checkbox" id="theme-checkbox" />
+						<div class="slider"></div>
+					</label>
+					<span class="theme-label">Dark Mode</span>
+				</div> -->
 				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright <script>document.write(new Date().getFullYear());</script> All rights reserved. Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="#" target="_blank">Badejo Ayotayo</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </p>
@@ -333,9 +342,9 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 							<div class="progress-wrap">
 								<h3>JavaScript</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
 								  	</div>
 								</div>
 							</div>
@@ -356,9 +365,9 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 							<div class="progress-wrap">
 								<h3>ReactJs</h3>
 								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="70"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-								    <span>70%</span>
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="90"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+								    <span>90%</span>
 								  	</div>
 								</div>
 							</div>
@@ -501,7 +510,20 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 				         <div class="timeline-centered">
 					        
 
-
+  <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+									<h2><a href="#">Lead Frontend Engineer at Fivani</a> <span>Dec 2024 - Present</span></h2>
+<p>
+Led the development of scalable and high-performance frontend applications using React.js, improving user experience and reducing load times. 
+Architected reusable component systems, collaborated closely with backend engineers and designers, and implemented API integrations for seamless data flow. 
+Drove best practices in code quality, responsiveness, and accessibility while mentoring junior developers and overseeing frontend architecture decisions.
+</p>					               </div>
+					            </div>
+					         </article>
 					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
 					            <div class="timeline-entry-inner">
 					               <div class="timeline-icon color-2">
@@ -509,8 +531,11 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					               </div>
 					               <div class="timeline-label">
 									<h2><a href="#"> Frontend Engineer at LimeStone</a> <span>May 2024 - Present</span></h2>
-									<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-					               </div>
+<p>
+Built and maintained responsive web applications using React.js and modern JavaScript, focusing on performance optimization and clean UI implementation. 
+Integrated REST APIs, handled state management efficiently, and improved application usability across devices. 
+Collaborated with cross-functional teams to deliver features, fix bugs, and enhance overall product experience.
+</p>					               </div>
 					            </div>
 					         </article>
 
@@ -621,12 +646,12 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 							<div class="project" style="background-image: url(images/fivani.png); border: 1px solid #cdcdcd;">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="https://frontend-qa.fivani.com/">Work 03</a></h3>
+										<h3><a href="https://new-staging.fivani.com/">Work 03</a></h3>
 										<span>Fivani</span>
 										<p class="icon">
-											<span><a href="https://frontend-qa.fivani.com/"><i class="icon-share3"></i></a></span>
-											<span><a href="https://frontend-qa.fivani.com/"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="https://frontend-qa.fivani.com/"><i class="icon-heart"></i> 49</a></span>
+											<span><a href="https://new-staging.fivani.com/"><i class="icon-share3"></i></a></span>
+											<span><a href="https://new-staging.fivani.com/"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="https://new-staging.fivani.com/"><i class="icon-heart"></i> 49</a></span>
 										</p>
 									</div>
 								</div>
@@ -688,6 +713,24 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 							</div>
 						</div>
 
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+						<div class="project" style="background-image: url(images/dress.PNG);border: 1px solid #cdcdcd;">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://clothes-shop-lilac.vercel.app/">Work 7</a></h3>
+										<span>Dress Up Dress Shop</span>
+										<p class="icon">
+											<span><a href="https://clothes-shop-lilac.vercel.app/"><i class="icon-share3"></i></a></span>
+											<span><a href="https://clothes-shop-lilac.vercel.app/"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="https://clothes-shop-lilac.vercel.app/"><i class="icon-heart"></i> 49</a></span>
+										</p>
+									</div>
+								</div>
+							</div>	 
+						</div>
+
+						
+
 
 
 
@@ -703,15 +746,15 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 
 
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/pis.PNG); border: 1px solid #cdcdcd;">
+							<div class="project" style="background-image: url(images/soutiee.png); border: 1px solid #cdcdcd;">
 								<div class="desc">
 									<div class="con">
-										<h3><a href="https://www.pisonitsha.com/">Work 07</a></h3>
-										<span>Promise International School</span>
+										<h3><a href="https://soutie.vercel.app/">Work 08</a></h3>
+										<span>Soutiee Luxury</span>
 										<p class="icon">
-											<span><a href="https://www.pisonitsha.com/"><i class="icon-share3"></i></a></span>
-											<span><a href="https://www.pisonitsha.com/"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="https://www.pisonitsha.com/"><i class="icon-heart"></i> 49</a></span>
+											<span><a href="https://soutie.vercel.app/"><i class="icon-share3"></i></a></span>
+											<span><a href="https://soutie.vercel.app/"><i class="icon-eye"></i> 100</a></span>
+											<span><a href="https://soutie.vercel.app/"><i class="icon-heart"></i> 49</a></span>
 										</p>
 									</div>
 								</div>
@@ -721,157 +764,8 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 
 
 
-						
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/nupat.PNG);border: 1px solid #cdcdcd;">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://nupat.com.ng/">Work 08</a></h3>
-										<span>Nupat Technologies</span>
-										<p class="icon">
-											<span><a href="https://nupat.com.ng/"><i class="icon-share3"></i></a></span>
-											<span><a href="https://nupat.com.ng/"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="https://nupat.com.ng/"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-
-
-							
-						</div>
-
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/weatherfor2.PNG);border: 1px solid #cdcdcd;">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://ronbeauty.vercel.app/">Work 09</a></h3>
-										<span>WeatherFor2</span>
-										<p class="icon">
-											<span><a href="https://ronbeauty.vercel.app/"><i class="icon-share3"></i></a></span>
-											<span><a href="https://ronbeauty.vercel.app/"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="https://ronbeauty.vercel.app/"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-
-
-
-							
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/cleaning.PNG);border: 1px solid #cdcdcd;">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://norriscolecleaningservice.vercel.app/">Work 10</a></h3>
-										<span>Norriscole Cleaning service</span>
-										<p class="icon">
-											<span><a href="https://norriscolecleaningservice.vercel.app/"><i class="icon-share3"></i></a></span>
-											<span><a href="https://norriscolecleaningservice.vercel.app/"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="https://norriscolecleaningservice.vercel.app/"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-
-
-							
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/coin.PNG); border: 1px solid #cdcdcd;">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://ravensbit.vercel.app/">Work 11</a></h3>
-										<span>Ravens Bit</span>
-										<p class="icon">
-											<span><a href="https://ravensbit.vercel.app/"><i class="icon-share3"></i></a></span>
-											<span><a href="https://ravensbit.vercel.app/"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="https://ravensbit.vercel.app/"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-
-
-
-							
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/phone.PNG);border: 1px solid #cdcdcd;">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://phone-store-one.vercel.app/">Work 12</a></h3>
-										<span>Phone Store</span>
-										<p class="icon">
-											<span><a href="https://phone-store-one.vercel.app/"><i class="icon-share3"></i></a></span>
-											<span><a href="https://phone-store-one.vercel.app/"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="https://phone-store-one.vercel.app/"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/mech-express.PNG);border: 1px solid #cdcdcd;">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://mechxpress.vercel.app/">Work 09</a></h3>
-										<span>Mech Xpress</span>
-										<p class="icon">
-											<span><a href="https://mechxpress.vercel.app/"><i class="icon-share3"></i></a></span>
-											<span><a href="https://mechxpress.vercel.app/"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="https://mechxpress.vercel.app/"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div> -->
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/rise.PNG);border: 1px solid #cdcdcd;">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://bitstock-three.vercel.app/">Work 13</a></h3>
-										<span>Rise Vest</span>
-										<p class="icon">
-											<span><a href="https://bitstock-three.vercel.app/"><i class="icon-share3"></i></a></span>
-											<span><a href="https://bitstock-three.vercel.app/"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="https://bitstock-three.vercel.app/"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/dress.PNG);border: 1px solid #cdcdcd;">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://clothes-shop-lilac.vercel.app/">Work 14</a></h3>
-										<span>Dress Up Dress Shop</span>
-										<p class="icon">
-											<span><a href="https://clothes-shop-lilac.vercel.app/"><i class="icon-share3"></i></a></span>
-											<span><a href="https://clothes-shop-lilac.vercel.app/"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="https://clothes-shop-lilac.vercel.app/"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/hotel.PNG);border: 1px solid #cdcdcd;">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="https://hotel-booking-olive.vercel.app/">Work 15</a></h3>
-										<span>Hotel Booking</span>
-										<p class="icon">
-											<span><a href="https://hotel-booking-olive.vercel.app/"><i class="icon-share3"></i></a></span>
-											<span><a href="https://hotel-booking-olive.vercel.app/"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="https://hotel-booking-olive.vercel.app/"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
+					  
+					
 					</div>
 				
 				</div>
@@ -888,30 +782,30 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 					<div class="row">
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="#" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small>july 14, 2025 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
+									<h3><a href="#">Renovating National Gallery</a></h3>
 									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="#" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small>july 14, 2025 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
+									<h3><a href="#">Wordpress for a Beginner</a></h3>
 									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
 							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<a href="#" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
 								<div class="desc">
 									<span><small>july 14, 2025 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
+									<h3><a href="#">Make website from scratch</a></h3>
 									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 								</div>
 							</div>
